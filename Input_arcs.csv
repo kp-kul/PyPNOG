@@ -1,0 +1,10 @@
+{?r where ?r INSTANCE-OF Adult_respondent},{?r where ?r INSTANCE-OF Child_respondent},None,None,None,None
+None,None,{?r where ?r INSTANCE-OF Deaf_adult_respondent},{?r where ?r INSTANCE-OF Deaf_adult_respondent},None,None
+None,None,None,None,{?r where ?r INSTANCE-OF Deaf_child_respondent},{?r where ?r INSTANCE-OF Deaf_child_respondent}
+None,None,{?g where ?g INSTANCE-OF AR_glasses},None,{?g where ?g INSTANCE-OF AR_glasses},None
+None,None,None,None,None,None
+None,None,None,None,None,None
+None,None,None,None,None,None
+None,None,None,None,None,None
+None,None,{?t where ?t INSTANCE-OF Experimental_trial_tool},{?t where ?t INSTANCE-OF Experimental_trial_tool},None,None
+None,None,None,None,{?t where ?t INSTANCE-OF Experimental_trial_tool},{?t where ?t INSTANCE-OF Experimental_trial_tool}

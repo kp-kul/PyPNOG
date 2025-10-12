@@ -1,0 +1,10 @@
+None,None,None,None,None,None
+?self.Input_queue,None,None,None,None,None
+None,?self.Input_queue,None,None,None,None
+None,None,None,None,None,None
+None,None,?self.Adult_resp_queue,None,None,None
+None,None,None,?self.Adult_resp_queue,None,None
+None,None,None,None,?self.Child_resp_queue,None
+None,None,None,None,None,?self.Child_resp_queue
+None,None,None,None,None,None
+None,None,None,None,None,None

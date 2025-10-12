@@ -1,0 +1,1012 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#"
+     xml:base="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont"
+     xmlns:p="#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont">
+        <dc:contributor>Krzysztof Pancerz</dc:contributor>
+        <dc:contributor>Piotr Kulicki</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- #examines -->
+
+    <owl:AnnotationProperty rdf:about="#examines"/>
+    
+
+
+    <!-- #has_code -->
+
+    <owl:AnnotationProperty rdf:about="#has_code"/>
+    
+
+
+    <!-- #is_examined_by -->
+
+    <owl:AnnotationProperty rdf:about="#is_examined_by"/>
+    
+
+
+    <!-- #is_included_in -->
+
+    <owl:AnnotationProperty rdf:about="#is_included_in"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#examines -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#examines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_code -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_code"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_examined_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_examined_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_included_in -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_included_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#url -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#url"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#examines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#examines">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_examined_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_quality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_examined_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_examined_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_included_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_included_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_used_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_used_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_code"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#AR_glasses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#AR_glasses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Equipment"/>
+        <rdfs:label xml:lang="en">AR glasses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Adult_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Adult_respondent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Respondent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent"/>
+        <rdfs:label xml:lang="en">adult respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_research">
+        <rdfs:label xml:lang="en">aspect of research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_visual_perception_research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_visual_perception_research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_research"/>
+        <rdfs:label xml:lang="en">aspect of visual perception research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurobiological_aspect"/>
+        <rdfs:comment xml:lang="en">brain neuroimaging during visual perception</rdfs:comment>
+        <rdfs:label xml:lang="en">brain neuroimaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Respondent"/>
+        <rdfs:label xml:lang="en">child respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_adult_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_adult_respondent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Adult_respondent"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Adult_respondent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_adult_respondent"/>
+        <rdfs:label xml:lang="en">deaf adult respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_child_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_child_respondent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_child_respondent"/>
+        <rdfs:label xml:lang="en">deaf child respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder">
+        <rdfs:label xml:lang="en">disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder"/>
+        <rdfs:label xml:lang="en">disorder with hearing impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Equipment">
+        <rdfs:label xml:lang="en">equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Methodology"/>
+        <rdfs:label xml:lang="en">experimental trial technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tool"/>
+        <rdfs:label xml:lang="en">experimental trial tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_adult_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_adult_respondent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Adult_respondent"/>
+        <rdfs:label xml:lang="en">hearing adult respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_child_respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hearing_child_respondent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Child_respondent"/>
+        <rdfs:label xml:lang="en">hearing child respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#International_Classification_of_Diseases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#International_Classification_of_Diseases">
+        <rdfs:label xml:lang="en">International Classification of Diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Methodology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Methodology">
+        <rdfs:label xml:lang="en">methodology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurobiological_aspect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurobiological_aspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_visual_perception_research"/>
+        <rdfs:comment xml:lang="en">neurobiological aspect of research on visual perception</rdfs:comment>
+        <rdfs:label xml:lang="en">neurobiological research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_visual_perception_research"/>
+        <rdfs:label xml:lang="en">neurophysiological aspect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability">
+        <rdfs:label xml:lang="en">perceptual ability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Respondent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Respondent">
+        <rdfs:label xml:lang="en">respondent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Aspect_of_visual_perception_research"/>
+        <rdfs:label>social aspect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Methodology"/>
+        <rdfs:label>test technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tool"/>
+        <rdfs:label xml:lang="en">test tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tool">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#is_used_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Methodology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_arrange_linearly_from_left_to_right -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_arrange_linearly_from_left_to_right">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <rdfs:label xml:lang="en">ability to arrange linearly from left to right</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_perceive_and_understand_visual_stimuli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_perceive_and_understand_visual_stimuli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Motor-Free_Visual_Perception_Test"/>
+        <rdfs:label xml:lang="en">ability to perceive and understand visual stimuli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Acquired_hearing_impairment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Acquired_hearing_impairment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB51</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#500439897</url>
+        <rdfs:label xml:lang="en">acquired hearing impairment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Auditory_synaptopathy_or_neuropathy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Auditory_synaptopathy_or_neuropathy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB57</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#1068894572</url>
+        <rdfs:label xml:lang="en">auditory synaptopathy or neuropathy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_imaging_using_AR_glasses_to_receive_speech_with_cued_speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_imaging_using_AR_glasses_to_receive_speech_with_cued_speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging"/>
+        <rdfs:label xml:lang="en">brain imaging using AR glasses to receive speech with cued speech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging_during_cued_speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging_during_cued_speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging"/>
+        <rdfs:label xml:lang="en">brain neuroimaging during cued speech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging_during_speech_perception_with_cued_speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging_during_speech_perception_with_cued_speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Brain_neuroimaging"/>
+        <rdfs:label xml:lang="en">brain neuroimaging during speech perception with cued speech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Capturing_important_elements_from_the_background -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Capturing_important_elements_from_the_background">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">capturing important elements from the background</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Concentration_on_speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Concentration_on_speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">concentration on speech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Congenital_hearing_impairment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Congenital_hearing_impairment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB50</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#1154032108</url>
+        <rdfs:label xml:lang="en">congenital hearing impairment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Copying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Copying">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test"/>
+        <rdfs:label xml:lang="en">copying</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deafness_not_otherwise_specified -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deafness_not_otherwise_specified">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB52</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#947280473</url>
+        <rdfs:label xml:lang="en">deafness not otherwise specified</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deeper_positive_connection_with_the_hearing_community_thanks_to_AR_glasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deeper_positive_connection_with_the_hearing_community_thanks_to_AR_glasses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">deeper positive connection with the hearing community thenks to AR glasses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Differentiating_between_real_and_virtual_elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Differentiating_between_real_and_virtual_elements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">differentiating between real and virtual elements</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Difficulty_in_observing_the_child -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Difficulty_in_observing_the_child">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">difficulty in observing the child</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Dividing_attention_into_different_elements_related_to_speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Dividing_attention_into_different_elements_related_to_speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">dividing attention into different elements related to speech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Eye-hand_coordination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Eye-hand_coordination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">eye-hand coordination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Fair_of_variety -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Fair_of_variety">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">fair of variety</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Fatigue_tolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Fatigue_tolerance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">fatigue tolerance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Feeling_of_heaviness_and_discomfort_when_wearing_AR_glasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Feeling_of_heaviness_and_discomfort_when_wearing_AR_glasses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">feeling of heaviness and discomfort when wearing AR glasses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Figure-background -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Figure-background">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">figure background</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hereditary_hearing_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Hereditary_hearing_loss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB56</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#703718321</url>
+        <rdfs:label xml:lang="en">hereditary hearing loss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#International_Classification_of_Diseases"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en</url>
+        <rdfs:label xml:lang="en">ICD-11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Motor-Free_Visual_Perception_Test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Motor-Free_Visual_Perception_Test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_tool"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_perceive_and_understand_visual_stimuli"/>
+        <rdfs:label xml:lang="en">Motor-Free Visual Perception Test</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Movement_planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Movement_planning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <rdfs:label xml:lang="en">movement planning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ototoxic_hearing_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ototoxic_hearing_loss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB53</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#953801031</url>
+        <rdfs:label xml:lang="en">ortotoxic hearing loss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceiving_background_elements_during_a_conversation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceiving_background_elements_during_a_conversation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">perceiving background elements during a conversation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_constancy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_constancy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">perception constancy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_position_of_objects_in_space -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_position_of_objects_in_space">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">perception of position of objects in space</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_spatial_relations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_spatial_relations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">perception of spatial relations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_virtual_reality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_virtual_reality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">perception of virtual reality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Presbycusis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Presbycusis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB54</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#1569854675</url>
+        <rdfs:label xml:lang="en">presbycusis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Receiving_interlocutor_non-verbal_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Receiving_interlocutor_non-verbal_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">receiving interlocutor non-verbal communication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Rotations_in_space -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Rotations_in_space">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <rdfs:label xml:lang="en">rotations in space</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Satisfaction_from_wearing_AR_glasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Satisfaction_from_wearing_AR_glasses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">satisfaction from wearing AR glasses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Shape_constancy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Shape_constancy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test"/>
+        <rdfs:label xml:lang="en">shape constancy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Similar_perception_of_non-verbal_interlocutor_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Similar_perception_of_non-verbal_interlocutor_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">similar perception of non-verbal interlocutor communication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Spotting_differences_between_elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Spotting_differences_between_elements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">spotting differences between elements</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Stigmatization_of_people_wearing_AR_glasses_for_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Stigmatization_of_people_wearing_AR_glasses_for_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Social_aspect"/>
+        <rdfs:label xml:lang="en">stigmatization of people wearing AR glasses for communication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Sudden_idiopathic_hearing_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Sudden_idiopathic_hearing_loss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Disorder_with_hearing_impairment"/>
+        <p:has_code>AB55</p:has_code>
+        <p:is_included_in rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#ICD-11"/>
+        <url>https://icd.who.int/browse/2025-01/mms/en#692012078</url>
+        <rdfs:label xml:lang="en">sudden idiopathic hearing loss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Synthesizing_images -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Synthesizing_images">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <rdfs:label xml:lang="en">synthesizing images</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_tool"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Figure-background"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Shape_constancy"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual-spatial_relations"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_closure"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_discrimination"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_sequential_memory"/>
+        <rdfs:label xml:lang="en">Test of Visual Perceptual Skills</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tolerance_range_for_perceiving_speech_and_hand_movement_synchronization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Tolerance_range_for_perceiving_speech_and_hand_movement_synchronization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <rdfs:label xml:lang="en">tolerance range for perceiving speech and hand movement synchronization</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual-spatial_relations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual-spatial_relations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <rdfs:label xml:lang="en">visual-spatial relations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_tool"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Copying"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Eye-hand_coordination"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Figure-background"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Shape_constancy"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_closure"/>
+        <rdfs:label xml:lang="en">Visual Perception Development Test</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_closure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_closure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_Perception_Development_Test"/>
+        <rdfs:label xml:lang="en">visual closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_discrimination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_discrimination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set"/>
+        <rdfs:label xml:lang="en">visual discrimination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Neurophysiological_aspect"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program–Visual_Perception"/>
+        <rdfs:label xml:lang="en">visual memory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory_area -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory_area">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <rdfs:label xml:lang="en">visual memory area</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_perception_exercise_set">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_tool"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Ability_to_arrange_linearly_from_left_to_right"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Eye-hand_coordination"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Movement_planning"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Rotations_in_space"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Synthesizing_images"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_discrimination"/>
+        <rdfs:label xml:lang="en">Visual Perception Exercise Set</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_sequential_memory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_sequential_memory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perceptual_ability"/>
+        <p:is_examined_by rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Test_of_Visual_Perceptual_Skills"/>
+        <rdfs:label xml:lang="en">visual sequential memory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#arg1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#arg1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#AR_glasses"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#arg2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#arg2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#AR_glasses"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program_Visual_Perception -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#mTalent_Program_Visual_Perception">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Experimental_trial_tool"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Eye-hand_coordination"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Fair_of_variety"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Figure-background"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_constancy"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_position_of_objects_in_space"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Perception_of_spatial_relations"/>
+        <p:examines rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Visual_memory"/>
+        <rdfs:label xml:lang="en">mTalent Visual Perception</rdfs:label>
+        <rdfs:label xml:lang="pl">mTalent percepcja wizualna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_adult_respondent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_child_respondent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#r3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kpancerz/ontologies/2025/3/edutheriont#Deaf_adult_respondent"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
